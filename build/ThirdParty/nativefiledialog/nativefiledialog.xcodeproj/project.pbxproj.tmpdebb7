@@ -1,0 +1,95 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7113F5C0B93C422480294344 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BC4E583180B74D81B0421EBE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				05FAE11EF7778B5AC715119C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BA2AFE9F53DA470A8D863F9F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 76EFAFF709844D0AB6FA88F2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				383C29DDDF873CACB4D1D418 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3B1DE54529064039B185F87B /* PBXTargetDependency */,
+				2770616D153F49C2A318E585 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CFD653EF613D4C6ABB8E071C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B33F860C3FB4A68870C99FD /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AC67235B3BC447CD9609A43D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1BA3548D24DE4769B6B9D038 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/nativefiledialog/src/nfd_cocoa.m */ = {isa = PBXBuildFile; fileRef = 300331B9452A4483965B60C9 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/nativefiledialog/src/nfd_cocoa.m */; };
+		649AB862B0AE42B88C95FC92 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 27B3F5C94B974CF2BFD83519 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/CMakeLists.txt */; };
+		8BCC35B132FD4CA797C3C513 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/nativefiledialog/src/nfd_common.h */ = {isa = PBXBuildFile; fileRef = 1135961CB09E45A89312B1CA /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/nativefiledialog/src/nfd_common.h */; };
+		FC18C092F8A8425DAEB633A6 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/nativefiledialog/src/nfd_common.c */ = {isa = PBXBuildFile; fileRef = F67CEC843975418384C54597 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/nativefiledialog/nativefiledialog/src/nfd_common.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		92D33BA71CFB43DCAF10FF71 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9C2652FA085947419D552203 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BB796CEE9A574323BD44CB33 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C1AD8C4E5A7A4DDBB61AECB8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7B1E7E512AA44CA88BCC1432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49C44D3880140E59B361C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7113F5C0B93C422480294344;
+			remoteInfo = ZERO_CHECK;
+		};
+		B32BCC411A724685A0311490 /* PBXContainerItemProxy */ = {
+			isa = 

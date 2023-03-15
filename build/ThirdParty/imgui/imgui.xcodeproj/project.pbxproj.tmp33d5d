@@ -1,0 +1,56 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7113F5C0B93C422480294344 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A6F42635AD7340DBA5F10FEA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1FC7EFF819EEE71D85D39570 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BA2AFE9F53DA470A8D863F9F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51502A728A7049F58DC54C18 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				76299EFA735692D0787D6E79 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8B300F02102D4CACB3E0DDA2 /* PBXTargetDependency */,
+				CDFFCE4F57F24593A6C2B051 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CFD653EF613D4C6ABB8E071C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A0B7AD37DC544FA9C121B64 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4A44A376669C4243A576DF86 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01A609CB8C4E4E25A4803DE9 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 566D904CAB5546929FDFDC7C /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui_widgets.cpp */; };
+		113660062A384F3480E09244 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imstb_textedit.h */ = {isa = PBXBuildFile; fileRef = B8E2C57F75484FF19E31F33D /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imstb_textedit.h */; };
+		1CCA0B52DD2B4A87A0C74A70 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imconfig.h */ = {isa = PBXBuildFile; fileRef = C42FB0FF43764115B21C3188 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imconfig.h */; };
+		2FF514A739014C98AB193E7A /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imstb_rectpack.h */ = {isa = PBXBuildFile; fileRef = 0848D50ACFDC4D769EA631AE /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imstb_rectpack.h */; };
+		546AE304D37744EBBE6FD768 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = B8A0100339F04F69B2C156AD /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui.cpp */; };
+		5C557E9BCB624DEEA7205EA3 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E547980AF0B24D1199FD6E3F /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/CMakeLists.txt */; };
+		92FC99D7BD1E42CA9F187E59 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 83C69388320645759EBA5B10 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui_demo.cpp */; };
+		C4B8732A7AAE42C5878B42B6 /* /Users/daniel_glazman/Documents/GitHub/computer-graphics-2023-daniel_glazman-gal_alpert/ThirdParty/imgui/imgui/imgui_internal.h */ = {isa = PBXBuildFile; 
