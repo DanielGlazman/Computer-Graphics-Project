@@ -1,4 +1,4 @@
-# Computer Graphics Course Project - Haifa University 2023
+# Computer Graphics Course Project - University Of Haifa 2023
 
 ### Project Description:
 The project was written by myself and Gal Alpert as part of computer graphics course of University of Haifa.
