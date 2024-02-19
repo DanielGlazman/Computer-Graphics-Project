@@ -1,7 +1,7 @@
 # Computer Graphics Course Project - Haifa University 2023
 
 ### Project Description:
-The project was written by galalpert and myself as part of computer graphics course of Haifa University.
+The project was written by myself and Gal Alpert as part of computer graphics course of University of Haifa.
 This is a simple "Mesh Model Viewer" project that was developed using C++ and OpenGL.
 The results are presented in the following folders:
 - Assignment1Report
